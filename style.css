@@ -1,0 +1,37 @@
+#btn {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(6, 161, 6);
+    border-radius: 5px;
+    border:  1px pink solid;
+    cursor: pointer;
+}
+#btn:active {
+    color:rgb(91, 6, 161);
+    background-color: pink;
+}
+div {
+align-content: center;
+position:relative ;
+background-color: aquamarine;
+align-items: center;
+padding:20px;
+border-radius: 10px;
+height: auto;
+}
+#result {
+    color:rgb(80, 10, 209);
+    background-color: rgba(116, 13, 212, 0.021);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.show {
+animation:show 3s infinite;
+}
+
+@keyframes show {
+  0%   { color: red; }
+  25%  { color: orange; }
+  50%  { color: green; }
+  75%  { color: blue; }
+  100% { color: purple; }
+}
